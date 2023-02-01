@@ -1,0 +1,30 @@
+/* Header start */
+header {
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header img {
+    width: 40%;
+    
+    
+}
+
+
+.menuline, li, a {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    
+    color: black;
+}
+
+.menuline ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
